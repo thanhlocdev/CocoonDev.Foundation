@@ -1,0 +1,15 @@
+{
+    "name": "com.cocoondev.foundation",
+    "displayName": "CocoonDev.Foundation",
+    "version": "1.0.0",
+    "type": "library",
+    "unity": "2022.3",
+    "dependencies": {
+        "com.draconware-dev.span-extensions.net.unity": "1.4.0",
+        "com.cysharp.unitask": "2.5.5",
+        "com.cysharp.zstring": "2.6.0",
+        "com.zbase.collections.pooled": "2.8.4",
+        "com.zbase.foundation": "1.0.6",
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "CocoonDev.Foundation",
+    "rootNamespace": "CocoonDev.Foundation",
+    "references": [
+        "PrimeTween.Runtime",
+        "UniTask",
+        "Unity.TextMeshPro",
+        "ZBase.Collections.Pooled",
+        "ZString"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
