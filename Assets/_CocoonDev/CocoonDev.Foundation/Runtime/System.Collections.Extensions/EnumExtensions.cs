@@ -1,6 +1,6 @@
 using System;
 
-namespace CocoonDev.Foundation.System.Collections.Extensions
+namespace CocoonDev.Foundation.Collections.Extensions
 {
     public static class EnumExtensions
     {

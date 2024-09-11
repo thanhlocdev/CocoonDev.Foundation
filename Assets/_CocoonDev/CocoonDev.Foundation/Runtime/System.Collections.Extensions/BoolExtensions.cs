@@ -1,4 +1,4 @@
-namespace CocoonDev.Foundation.System.Collections.Extensions
+namespace CocoonDev.Foundation.Collections.Extensions
 {
     /// <summary>
     /// Extension Methods used on Booleans.
