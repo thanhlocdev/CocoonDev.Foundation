@@ -36,6 +36,9 @@ namespace CocoonDev.Foundation.Singletons
             SingleScene = 1,
         }
 
+        public static T Of<T>(Lifetime lifetime = Lifetime.EveryScenes) where T : MonoBehaviour
+            => Single<T>.GetInstance(lifetime);
+
         internal static class Single<T> where T : MonoBehaviour
         {
             private static readonly object s_lock = new();
@@ -93,6 +96,5 @@ namespace CocoonDev.Foundation.Singletons
                 return s_instance;
             }
         }
-
     }
 }
